@@ -1,4 +1,5 @@
 # sphinx build directory
 doc/_build
+doc/build
 
 ._*
