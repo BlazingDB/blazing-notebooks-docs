@@ -1,5 +1,7 @@
 # sphinx build directory
-doc/_build
-doc/build
+docs/_build
+docs/build
 
+# MAC OS X junk
 ._*
+.DS*
