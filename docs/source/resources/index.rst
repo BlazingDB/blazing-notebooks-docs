@@ -41,5 +41,6 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
 
     release_notes
