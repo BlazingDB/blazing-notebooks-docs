@@ -8,7 +8,7 @@ BlazingSQL Notebooks app provide private cluster's and manages resources, softwa
 and everything neccesary to have RAPIDS and BlazingSQL on the cloud.
 
 In the next sections we will learn more about how to create, launch, 
-suspend and delete private Dask clusters.
+delete and suspend private Dask clusters.
 
 Create a cluster
 ================
@@ -90,7 +90,8 @@ Finally, you have to do click on *"Delete"* button
 Manual and auto-suspend
 =======================
 
-**Manual suspend:**
+Manual suspend:
+---------------
 
 You have two ways to suspend cluster manually. One of them is from the cluster box. 
 
@@ -110,7 +111,8 @@ For both cases, after you do click on *"Stop"* button you will see that the clus
 
     <img src="../../_static/images/manualsuspend.png" alt="create_cluster"/>
 
-**Auto-suspend:**
+Auto-suspend:
+-------------
 
 The auto-suspend process start according to the time that you especify when you create the cluster. 
 
@@ -137,13 +139,13 @@ In clusterbox we have the "Launch" button. You only have to do click there
 
 .. raw:: html
 
-    <img src="../../_static/images/launch_cluster.png" alt="create_cluster"/>
+    <img src="../../_static/images/launch_cluster.png" alt="launch_cluster"/>
 
 Then you will be redirected to Jupyter lab window. Here you will have all the dependencies what are necessary to work with blazingSQL and RAPIDS. Also you can install all the packages and extensions that you want.
 
 .. raw:: html
 
-    <img src="../../_static/images/jupyter_window.png" alt="create_cluster"/>
+    <img src="../../_static/images/jupyter_window.png" alt="jupyter_window"/>
 
 .. toctree::
     :maxdepth: 2
