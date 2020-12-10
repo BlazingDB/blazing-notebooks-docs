@@ -15,26 +15,26 @@ Create a cluster
 
 Creating clusters on BlazingSQL Notebooks is easy only setting values for some parameters.
 
-Required parameters:
+**Required parameters:**
 
-Cluster name: Should be something that is easy for you to identify your cluster.
+**Cluster name:** Should be something that is easy for you to identify your cluster.
 
-Size: This parameter is about the number of GPUs in your cluster. There is options to select from 1 to 
+**Size:** This parameter is about the number of GPUs in your cluster. There is options to select from 1 to 
 64 GPUs.
 
-Auto Suspend: It is about in what time your cluster should start the autosuspend cluster after finish the last execution process. 
+**Auto Suspend:** It is about in what time your cluster should start the autosuspend cluster after finish the last execution process. 
 
 .. raw:: html
 
     <img src="../../_static/images/create_cluster_requiered.png" alt="create_cluster" width=600/>
     
-Default values: 
+**Default values:**
 
-Region: The default value will be us-east-1
+**Region:** The default value will be us-east-1
 
-Environment: By default it will be "rapids-stable"
+**Environment:** By default it will be *"rapids-stable"*
 
-Those parameteres could be changed and we explain more about that in Advanced options section.
+Those parameteres could be changed and we will explain more about that in Advanced options section.
 
 
 Supported cluster sizes and GPUs
@@ -51,9 +51,9 @@ Advanced options
 
 Creating private cluster allow users to configure two advanced options:
 
-Region: We can selected some specific region. The options for that parameter are us-east-1, us-east-2, us-west-1, us-west-1
+**Region:** We can selected some specific region. The options for that parameter are us-east-1, us-east-2, us-west-1, us-west-1
 
-Environment: If you are a new user, you have two created environments. But you also can create custom environments.
+**Environment:** If you are a new user, you have two created environments. But you also can create custom environments.
 
 .. raw:: html
 
@@ -65,13 +65,13 @@ Delete cluster
 
 To delete cluster, there are two ways to do it.
 
-In menu "Cluster":
+In menu *"Cluster"*:
 
 .. raw:: html
 
     <img src="../../_static/images/delete_cluster_grid.png" alt="create_cluster"/>
 
-In List clusters:
+In *"List clusters"*:
 
 .. raw:: html
 
@@ -85,12 +85,12 @@ You can also have to click on delete button in one of the options and you will s
     <img src="../../_static/images/delete_cluster_confirmation.png" alt="create_cluster"/>
 
 
-Finally, you have to do click on "Delete" button
+Finally, you have to do click on *"Delete"* button
 
 Manual and auto-suspend
 =======================
 
-Manual suspend:
+**Manual suspend:**
 
 You have two ways to suspend cluster manually. One of them is from the cluster box. 
 
@@ -104,13 +104,13 @@ The second one is from list clusters.
 
     <img src="../../_static/images/suspend_cluster_list.png" alt="suspend_cluster_list"/>
 
-For both cases, after you do click on "Stop" button you will see that the cluster status change automatically from "Running" to "Stopping Cluster (Manual)"
+For both cases, after you do click on *"Stop"* button you will see that the cluster status change automatically from *"Running"* to *"Stopping Cluster (Manual)"*.
 
 .. raw:: html
 
     <img src="../../_static/images/manualsuspend.png" alt="create_cluster"/>
 
-Auto-suspend:
+**Auto-suspend:**
 
 The auto-suspend process start according to the time that you especify when you create the cluster. 
 
@@ -118,13 +118,13 @@ The auto-suspend process start according to the time that you especify when you 
 
     <img src="../../_static/images/autosuspend.png" alt="create_cluster"/>
 
-When you stop to use the cluster, after the auto-suspend time, the cluster will change the status from "Running" to "Stopping Cluster (Auto)"
+When you stop to use the cluster, after the auto-suspend time, the cluster will change the status from *"Running"* to *"Stopping Cluster (Auto)"*
 
 .. raw:: html
 
     <img src="../../_static/images/auto_suspend.png" alt="create_cluster"/>
 
-In each case, for manual and auto-suspend, after the proccess finish the status of the cluster will be "Stopped"
+In each case, for manual and auto-suspend, after the proccess finish the status of the cluster will be *"Stopped"*.
 
 .. raw:: html
 
