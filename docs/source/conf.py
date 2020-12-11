@@ -82,6 +82,7 @@ html_use_modindex = True
 
 html_theme_options = {
   "twitter_url": "https://twitter.com/blazingsql"
+  , "github_url": "https://github.com/BlazingDB/blazing-notebooks-docs"
   , "search_bar_position": "navbar"
   , "show_prev_next": False
 }
