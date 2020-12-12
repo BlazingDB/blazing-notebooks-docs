@@ -13,8 +13,7 @@ Use cases
                 <img src="../_static/icons/useCases_industry.svg" class="card-img-top" alt="private clusters cluster action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Industry solutions</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p class="card-text">Learn how we use BlazingSQL and RAPIDS to solve problems in various industries.
                     </p>
 
 .. container:: custom-button
@@ -31,8 +30,7 @@ Use cases
                 <img src="../_static/icons/useCases_dataScience.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Data science</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">BlazingSQL and RAPIDS have wide variety of features. Learn how these can be applied to solve Data Science problems.</p>
 
 .. container:: custom-button
 
@@ -48,8 +46,10 @@ Use cases
                 <img src="../_static/icons/useCases_webinars.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Webinars</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">We engage with the community by organizing hands-on 
+                     webinars in both English and Spanish. The content is tailored to solve real-world issues 
+                     with tools available in the RAPIDS and PyData ecosystems.
+                    </p>
 
 .. container:: custom-button
 
