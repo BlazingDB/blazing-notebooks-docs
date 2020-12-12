@@ -1,3 +1,8 @@
 Date,Version,Comment,Link
+12/11/2020,0.17,"New comms and new SQL functionality",:doc:`Release notes 0.17<release_notes/release_0_17>`
 10/22/2020,0.16,"Major release",:doc:`Release notes 0.16<release_notes/release_0_16>`
 8/31/2020,0.15,"It's better",:doc:`Release notes 0.15<release_notes/release_0_15>`
+6/9/2020,0.14,"Bigger than GPU support",:doc:`Release notes 0.14<release_notes/release_0_14>`
+4/7/2020,0.13,"Improving stability with libcudf++, expanded SQL and more!",:doc:`Release notes 0.13<release_notes/release_0_13>`
+2/6/2020,0.12,"Skip data, memory allocator and more!",:doc:`Release notes 0.12<release_notes/release_0_12>`
+12/17/2020,0.11,"One repo to rule them all and its all Python",:doc:`Release notes 0.11<release_notes/release_0_11>`
