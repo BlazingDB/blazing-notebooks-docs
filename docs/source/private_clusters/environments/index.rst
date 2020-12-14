@@ -49,7 +49,7 @@ Base environments
 =================
 
 BlazingSQL Notebooks app allows users to create custom environments, but by default 
-we provide you two base environments built with RAPIDS-stable and RAPIDS-nightly. Those environments can'tempor
+we provide you two base environments built with RAPIDS-stable and RAPIDS-nightly. Those environments can't
 be eddited and deleted. 
 
 RAPIDS-stable
@@ -159,18 +159,28 @@ It is a base environment that include RAPIDS and BlazingSQL from nightly channel
 Delete an environment
 =====================
 
-To delete a custom conda environment,  you only have to do click on the *"Delete"* button.
+To delete a custom conda environment, you only have to do click on the *"Delete"* button.
+
+.. raw:: html
+
+    <img src="../../_static/images/list_custom_env.png" alt="list_custom_environment"/>
+
+Then, you will need to confirm or cancel the operation
+
+.. raw:: html
+
+    <img src="../../_static/images/delete_environment.png" alt="list_custom_environment"/>
+
+After you confirm that you want to delete the environment, it will be deleted from your list environment.
 
 Edit and update an environment
 ==============================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-culpa qui officia deserunt mollit anim id est laborum.
+You can edit a custom conda environmet and change any of the parameters that you enter when the environment was created.
+
+.. raw:: html
+
+    <img src="../../_static/images/edit_custom_env.png" alt="list_custom_environment"/>
 
 .. toctree::
     :maxdepth: 2
