@@ -49,7 +49,7 @@ Base environments
 =================
 
 BlazingSQL Notebooks app allows users to create custom environments, but by default 
-we provide you two base environments built with RAPIDS-stable and RAPIDS-nightly. Those environments can'tempor
+we provide you two base environments built with RAPIDS-stable and RAPIDS-nightly. Those environments can't
 be eddited and deleted. 
 
 RAPIDS-stable
