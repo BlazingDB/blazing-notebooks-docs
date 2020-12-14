@@ -4,36 +4,24 @@
 Industry solutions
 ==================
 
-Using NVIDIA RAPIDS to solve problems in various industries.
+Below we present to you solutions to select problems found in many industries.
+We hope you treat these as a starting point to achieve more with the tools
+and features available in the RAPIDS ecosystem.
 
 Urban planning
 ==============
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-culpa qui officia deserunt mollit anim id est laborum.
-
-- :doc:`Urban planning <urban_planning>`
+Problems in :doc:`urban planning <urban_planning>` require big data solutions. 
+Explore the use cases that utilize RAPIDS stack.
 
 Healthcare
 ==========
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-culpa qui officia deserunt mollit anim id est laborum.
-
-- :doc:`Healthcare <healthcare>`
+:doc:`Healthcare <healthcare>` solutions frequently require multiple iterations
+to fine-tune the final deliverable. Learn how we do it! 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
 
     urban_planning
