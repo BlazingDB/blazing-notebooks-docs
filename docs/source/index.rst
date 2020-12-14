@@ -38,7 +38,7 @@ Welcome to Blazing Notebooks documentation!
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Private clusters</h5>
                     <p class="card-text">Manage private clusters!
-                    <br>Learn to create and change clusters and organize environments.
+                    <br>Learn to create and change clusters, and organize environments.
                     </p>
 
 .. container:: custom-button
