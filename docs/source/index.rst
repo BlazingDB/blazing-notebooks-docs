@@ -19,8 +19,8 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_gettingStarted.svg" class="card-img-top" alt="getting started action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Getting started</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p class="card-text">10-minutes to Blazing Notebooks! 
+                    <br>The step-by-step guide to Blazing Notebooks, Blazing SQL and RAPIDS.
                     </p>
 
 .. container:: custom-button
@@ -37,8 +37,9 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_privateClusters.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Private clusters</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Manage private clusters!
+                    <br>Learn to create and change clusters and organize environments.
+                    </p>
 
 .. container:: custom-button
 
@@ -54,8 +55,9 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_billing.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Billing</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Understand credits and billing!
+                    <br>Learn to purchase credits and track your spend.
+                    </p>
 
 .. container:: custom-button
 
@@ -71,8 +73,9 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_useCases.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Use cases</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Explore solutions to common problems!
+                    <br>Learn to solve industry and data science problems with RAPIDS stack.
+                    </p>
 
 .. container:: custom-button
 
@@ -88,8 +91,9 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_freemium.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Freemium</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Get a taste of what we offer!
+                    <br>Try Blazing Notebooks for yourself in the free app.
+                    </p>
 
 .. container:: custom-button
 
@@ -105,8 +109,9 @@ Welcome to Blazing Notebooks documentation!
                 <img src="_static/icons/index_resources.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Resources</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Find information about RAPIDS stack!
+                    <br>Explore docs and release documentation to learn about new features.
+                    </p>
 
 .. container:: custom-button
 
