@@ -4,7 +4,7 @@
 Webinars
 ========
 
-Webinars published to date
+We aim to publish new content regularly. Below is a list of all the content we released to date!
 
 .. csv-table:: List of webinars
    :file: webinars.csv
