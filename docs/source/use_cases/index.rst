@@ -30,7 +30,7 @@ Use cases
                 <img src="../_static/icons/useCases_dataScience.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Data science</h5>
-                    <p class="card-text">BlazingSQL and RAPIDS have wide variety of features. Learn how these can be applied to solve Data Science problems.</p>
+                    <p class="card-text">Learn how RAPIDS ecosystem can be applied to solve Data Science problems.</p>
 
 .. container:: custom-button
 
@@ -47,8 +47,7 @@ Use cases
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Webinars</h5>
                     <p class="card-text">We engage with the community by organizing hands-on 
-                     webinars in both English and Spanish. The content is tailored to solve real-world issues 
-                     with tools available in the RAPIDS and PyData ecosystems.
+                     webinars in both English and Spanish.
                     </p>
 
 .. container:: custom-button
