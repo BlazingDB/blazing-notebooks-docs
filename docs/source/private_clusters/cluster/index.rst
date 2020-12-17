@@ -4,148 +4,293 @@
 Cluster
 =======
 
-BlazingSQL Notebooks app provide private cluster's and manages resources, software environments, 
-and everything neccesary to have RAPIDS and BlazingSQL on the cloud.
-
-In the next sections we will learn more about how to create, launch, 
-delete and suspend private Dask clusters.
+If your application/data requires more compute power than can fit on a single GPU,
+BlazingSQL Notebooks provide private clusters: a managed resource and software environments with 
+everything neccesary to have RAPIDS and BlazingSQL on the cloud. Using Blazing Notebooks is the easiest way to get 
+started developing on GPUs!
 
 Create a cluster
 ================
 
-Creating clusters on BlazingSQL Notebooks is easy only setting values for some parameters.
+To get started with private clusters you will need credits in your account; check 
+:doc:`Billing <../../billing/index>` section to learn how.
 
-**Required parameters:**
+Creating clusters on BlazingSQL Notebooks requires only 3 parameters to start with:
 
-**Cluster name:** Should be something that is easy for you to identify your cluster.
-
-**Size:** This parameter is about the number of GPUs in your cluster. There is options to select from 1 to 
-64 GPUs.
-
-**Auto Suspend:** It is about in what time your cluster should start the autosuspend cluster after finish the last execution process. 
+- **Cluster name:** A recognizable name for your cluster.
+- **Size:** Select the number of GPUs from dropdown. See :ref:`Supported cluster sizes and GPUs <cluster_sizes>` section below.
+- **Auto Suspend:** Time the cluster will shutdown if not being used. 
 
 .. raw:: html
 
-    <img src="../../_static/images/create_cluster_requiered.png" alt="create_cluster" width=600/>
-    
-**Default values:**
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/create_cluster_requiered.png" alt="create_cluster" width=400/>
+        </div>
+    </div>
 
-**Region:** The default value will be us-east-1
+|
 
-**Environment:** By default it will be *"rapids-stable"*
+Some default values are preset but you can adjust them if you click on 
+the **Advanced options**.
 
-Those parameteres could be changed and we will explain more about that in Advanced options section.
+.. raw:: html
 
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/advanced_options.png" alt="create_cluster" width=400/>
+        </div>
+    </div>
+
+|
+
+Available options:
+
+- **Region:** defults to *us-east-1*. Available regions are *us-east-1*, *us-east-2*, *us-west-1*, *us-west-1*.
+- **Environment:** defaults to *"rapids-stable"*. Built-in environments are *rapids-stable* and *rapids-nightly*. To learn how to create environments refer to the :doc:`Environments <../environments/index>` part.
+
+.. _cluster_sizes:
 
 Supported cluster sizes and GPUs
 ================================
 
-For private cluster BlazingSQL Notebooks app support clusters that contain from 1 to 64 GPUs. The cost of each type of cluster is 1 USD per GPU as we can see in the image.
+To provide flexibility and help with handling any type of workload
+we support clusters that can be comprised of 1 to 64 GPUs. 
+The table below shows the available SKUs with their capabilities and price.
+
+.. list-table:: List of available cluster sizes
+   :widths: 25 25 50 25
+   :header-rows: 1
+
+   * - SKU
+     - Number of GPUs
+     - GPU RAM
+     - Credits per hour
+   * - **X-Small**
+     - 1
+     - 16GB
+     - 1 credit
+   * - **Small**
+     - 2
+     - 32GB
+     - 2 credits
+   * - **Medium**
+     - 4
+     - 64GB
+     - 4 credits
+   * - **Large**
+     - 8
+     - 128GB
+     - 8 credits
+   * - **X-Large**
+     - 16
+     - 256GB
+     - 16 credits
+   * - **2X-Large**
+     - 32
+     - 512GB
+     - 32 credits
+   * - **3X-Large**
+     - 64
+     - 1024GB
+     - 64 credits
+
+Blazing Notebooks runs on NVIDIA T4 GPUs, each with 16GB of RAM.
+
+Start cluster
+=============
+
+If you create a new cluster, once it is deployed it will be returned to 
+you in a running state. 
+
+After you shut down the cluster, either manually or the auto-suspend did that for you
+(see :ref:`Manual and auto-suspend <manual_auto_suspend>`), you can start a cluster
+in two ways:
+
+1. In the *tiles* view click on **Actions** and select **Start**
 
 .. raw:: html
 
-    <img src="../../_static/images/size_cluster.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/cluster_start_tiles.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
 
-Advanced options
-================
+|
 
-Creating private cluster allow users to configure two advanced options:
-
-**Region:** We can selected some specific region. The options for that parameter are us-east-1, us-east-2, us-west-1, us-west-1
-
-**Environment:** If you are a new user, you have two created environments. But you also can create custom environments.
+2. In the *list* view click on the **Play** button.
 
 .. raw:: html
 
-    <img src="../../_static/images/advanced_options.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/cluster_start_grid.png" alt="create_cluster" width=500/>
+        </div>
+    </div>
 
 
 Delete cluster
 ==============
 
-To delete cluster, there are two ways to do it.
+If you want to delete cluster, there are two ways to achieve that.
 
-In menu *"Cluster"*:
-
-.. raw:: html
-
-    <img src="../../_static/images/delete_cluster_grid.png" alt="create_cluster"/>
-
-In *"List clusters"*:
+1. In the *tiles* view click on **Actions** and select **Delete**.
 
 .. raw:: html
 
-    <img src="../../_static/images/delete_cluster_list.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/cluster_delete_tiles.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
 
-   
-You can also have to click on delete button in one of the options and you will see this window.
+|
+
+2. In the *list* view click on the **Delete** button.
 
 .. raw:: html
 
-    <img src="../../_static/images/delete_cluster_confirmation.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/cluster_delete_list.png" alt="create_cluster" width=500/>
+        </div>
+    </div>
 
+|
 
-Finally, you have to do click on *"Delete"* button
+To finalize the deletion of a cluster you need to confirm that in the pop-up window.
+
+.. raw:: html
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/delete_cluster_confirmation.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
+
+.. _manual_auto_suspend:
 
 Manual and auto-suspend
 =======================
+You can stop your cluster manually (see :ref:`below <manual_stop>`). However, if 
+by any chance you forget, the :ref:`auto-suspend <auto_stop>` process will turn off your cluster 
+automatically after the predefined period of time.
 
-Manual suspend:
+.. _manual_stop:
+
+Manual suspend
 ---------------
 
-You have two ways to suspend cluster manually. One of them is from the cluster box. 
+To stop you cluster manually you have two ways:
+
+1. In the *tiles* view click on **Actions** and select **Stop**.
 
 .. raw:: html
 
-    <img src="../../_static/images/manual_suspend.png" alt="manual_suspend"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/manual_suspend.png" alt="manual_suspend" width=300/>
+        </div>
+    </div>
 
-The second one is from list clusters.
+|
+
+2. In the *list* view click on the **Stop** button.
 
 .. raw:: html
 
-    <img src="../../_static/images/suspend_cluster_list.png" alt="suspend_cluster_list"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/suspend_cluster_list.png" alt="suspend_cluster_list" width=500/>
+        </div>
+    </div>
 
-For both cases, after you do click on *"Stop"* button you will see that the cluster status change automatically from *"Running"* to *"Stopping Cluster (Manual)"*.
+|
+
+Either way you choose, once you click the *"Stop"* button the cluster status will change automatically from *"Running"* to *"Stopping Cluster (Manual)"*.
 
 .. raw:: html
 
-    <img src="../../_static/images/manualsuspend.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/manualsuspend.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
 
-Auto-suspend:
+|
+
+After the proccess finishes the status of the cluster will be *"Stopped"*.
+
+.. raw:: html
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/stopped_clusters.png" alt="create_cluster" width=600/>
+        </div>
+    </div>
+
+.. _auto_stop:
+
+Auto-suspend
 -------------
 
-The auto-suspend process start according to the time that you especify when you create the cluster. 
+The auto-suspend process will shut down your cluster after the predefined time of inactivity specified during the cluster creation. 
 
 .. raw:: html
 
-    <img src="../../_static/images/autosuspend.png" alt="create_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/autosuspend.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
 
-When you stop to use the cluster, after the auto-suspend time, the cluster will change the status from *"Running"* to *"Stopping Cluster (Auto)"*
+|
 
-.. raw:: html
-
-    <img src="../../_static/images/auto_suspend.png" alt="create_cluster"/>
-
-In each case, for manual and auto-suspend, after the proccess finish the status of the cluster will be *"Stopped"*.
-
-.. raw:: html
-
-    <img src="../../_static/images/stopped_clusters.png" alt="create_cluster"/>
-
-Jupyter Lab
-===========
-
-In clusterbox we have the "Launch" button. You only have to do click there
+Once the cluster starts shutting down, the status will change from *"Running"* to *"Stopping Cluster (Auto)"*.
 
 .. raw:: html
 
-    <img src="../../_static/images/launch_cluster.png" alt="launch_cluster"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/auto_suspend.png" alt="create_cluster" width=300/>
+        </div>
+    </div>
 
-Then you will be redirected to Jupyter lab window. Here you will have all the dependencies what are necessary to work with blazingSQL and RAPIDS. Also you can install all the packages and extensions that you want.
+|
+
+Once the proccess finishes the status of the cluster will be *"Stopped"*.
 
 .. raw:: html
 
-    <img src="../../_static/images/jupyter_window.png" alt="jupyter_window"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/stopped_clusters.png" alt="create_cluster" width=600/>
+        </div>
+    </div>
+
+Launching Jupyter Lab
+=====================
+
+To launch the :doc:`workspace / Jupyter Lab <../workspace/index>` click the **Launch** button.
+
+.. raw:: html
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">  
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/launch_cluster.png" alt="launch_cluster" width=300/>
+        </div>
+    </div>
+
+Then you will be redirected to Jupyter Lab window. 
+All the dependencies that are necessary to work with BlazingSQL and RAPIDS are already here (see :doc:`Environments <../environments/index>` part for more details). 
+
+.. 
+    _Also you can install all the packages and extensions that you want.
+
+.. raw:: html
+
+    <img src="../../_static/images/jupyter_window.png" alt="jupyter_window" width=700/>
 
 .. toctree::
     :maxdepth: 2
