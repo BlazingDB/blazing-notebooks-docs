@@ -125,7 +125,7 @@ in two ways:
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
         <div class="shadow image text-center ">
-            <img src="../../_static/images/cluster_start_grid.png" alt="create_cluster" width=500/>
+            <img src="../../_static/images/cluster_start_list.png" alt="create_cluster" width=500/>
         </div>
     </div>
 
