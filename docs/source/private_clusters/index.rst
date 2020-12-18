@@ -31,8 +31,8 @@ Private clusters
                 <img src="../_static/icons/privClusters_workspace.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Workspace</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">BlazingSQL Notebooks app provide private cluster’s and manages resources, software environments, 
+                    and everything neccesary to have RAPIDS and BlazingSQL on the cloud.</p>
 
 .. container:: custom-button
 
