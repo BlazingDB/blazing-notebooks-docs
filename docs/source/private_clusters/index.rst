@@ -13,8 +13,8 @@ Private clusters
                 <img src="../_static/icons/privClusters_cluster.svg" class="card-img-top" alt="private clusters cluster action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Cluster</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p class="card-text">Scale your workloads to multi-node 
+                    <br>GPU clusters on the cloud!
                     </p>
 
 .. container:: custom-button
@@ -36,7 +36,7 @@ Private clusters
 
 .. container:: custom-button
 
-    :ref:`Workspace guides<private_clusters>`
+    :ref:`Workspace guides<workspace>`
 
 .. raw:: html
 
@@ -48,8 +48,9 @@ Private clusters
                 <img src="../_static/icons/privClusters_notebooks.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Notebooks</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">Unfamiliar with Jupyter notebooks? 
+                    <br>This is for you!
+                    </p>
 
 .. container:: custom-button
 
@@ -65,8 +66,9 @@ Private clusters
                 <img src="../_static/icons/privClusters_environments.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Managing environments</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="card-text">No matter your data science stack - 
+                    <br>we got you covered!
+                    </p>
 
 .. container:: custom-button
 

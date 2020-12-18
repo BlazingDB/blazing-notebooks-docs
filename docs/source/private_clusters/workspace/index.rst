@@ -1,8 +1,8 @@
 .. _workspace:
 
-=========
-Workspace
-=========
+=======================
+Workspace / Jupyter Lab
+=======================
 
 Navigating workspace
 
