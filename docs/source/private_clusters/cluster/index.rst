@@ -272,7 +272,7 @@ Once the proccess finishes the status of the cluster will be *"Stopped"*.
 Launching Jupyter Lab
 =====================
 
-To launch the :doc:`workspace / Jupyter Lab <../workspace/index>` click the **Launch** button.
+To launch the workspace / Jupyter Lab click the **Launch** button.
 
 .. raw:: html
 
