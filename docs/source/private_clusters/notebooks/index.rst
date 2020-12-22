@@ -63,6 +63,7 @@ The second one is selecting one of the option of the *"run"* menu.
 
 .. raw:: html
 
+
     <img src="../../_static/images/run_notebook_menu.png" alt="jupyter_window" width=700/>
 
 
