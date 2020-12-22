@@ -18,20 +18,32 @@ culpa qui officia deserunt mollit anim id est laborum.
 Create notebooks
 ================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-culpa qui officia deserunt mollit anim id est laborum.
+Creating a new notebook is really easy. You only have to click on the button of 
+"Notebook section".
+
+.. raw:: html
+
+    <img src="../../_static/images/create_notebook.png" alt="jupyter_window" width=700/>
+
+|
+
+Then, you will see you something like this:
+
+.. raw:: html
+
+    <img src="../../_static/images/new_notebook.png" alt="jupyter_window" width=700/>
+
 
 Open notebooks
 ==============
 
-To open an existing notebook, you shpuld go to the file list on the left side of the window 
-and double-click on the notebook you want to open.
+To open an existing notebook, you should go to the file list on the left side of the window 
+and double-click on the notebook you want to open and you will see your notebook in the 
+rigth side of the window.
 
+.. raw:: html
+
+    <img src="../../_static/images/open_notebook.png" alt="jupyter_window" width=700/>
 
 
 Run notebooks
