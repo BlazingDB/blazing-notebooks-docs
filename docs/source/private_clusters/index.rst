@@ -31,8 +31,7 @@ Private clusters
                 <img src="../_static/icons/privClusters_workspace.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Workspace</h5>
-                    <p class="card-text">BlazingSQL Notebooks app provide private cluster’s and manages resources, software environments, 
-                    and everything neccesary to have RAPIDS and BlazingSQL on the cloud.</p>
+                    <p class="card-text">Everything you need to do your job in one familiar place!</p>
 
 .. container:: custom-button
 
@@ -66,8 +65,7 @@ Private clusters
                 <img src="../_static/icons/privClusters_environments.svg" class="card-img-top" alt="private clusters action icon" height="52">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Managing environments</h5>
-                    <p class="card-text">No matter your data science stack - 
-                    <br>we got you covered!
+                    <p class="card-text">No matter your data science stack - we got you covered!
                     </p>
 
 .. container:: custom-button
