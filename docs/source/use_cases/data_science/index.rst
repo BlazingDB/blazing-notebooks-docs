@@ -29,6 +29,3 @@ to CPU frameworks.
 .. toctree::
     :maxdepth: 3
     :hidden:
-
-    nlp
-    etl

@@ -5,28 +5,32 @@ Managing environments
 =====================
 
 One of the most important parts of doing your work easy is making sure that you have a environment with
-all all the packages that you need. BlazingSQL Notebooks app supports you managing your conda environments. You can create custom environments, 
-but if you don't need any specific package you will have two default environments configurated to use rapids-stable or rapids-nightly 
-and all the dependencies to try RAPIDS and BlazingSQL.  
+all all the packages that you need. The Blazing Notebooks provides and easy way to managing your conda environments. 
+You can create custom environments, but if you don't need any specific package you will have two default environments configured 
+to use *rapids-stable* or *rapids-nightly* 
+and all the dependencies to try RAPIDS and BlazingSQL;
+see what is included in the :ref:`Base environments <base_envs>` section below.
 
 Create an environment
 =====================
 
-Creating conda environments in BlazingSQL Notebooks is just about fullfill the form with the values for the required parameters.
+To create conda environment in Blazing Notebooks just fill the form with the required parameters.
 
 .. raw:: html
 
-    <img src="../../_static/images/create_custom_env.png" alt="create_custom_environment"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/create_custom_env.png" alt="create_custom_environment" width=400/>
+        </div>
+    </div>
 
+|
 
 **Required parameters:**
 
-**Name:** Should be something that is easy for you to identify your conda environment.
-
-**Description:** This parameter is about some detail that you want to save for your environment.
-
-**Packages:** In this field you have to specify the channels and dependencies that you want to have to installed in your conda environment. To make it easy, 
-you will see a structure there when you go to the create custom environment form. 
+1. **Name:** A recognizable name for the environment.
+2. **Description:** A short description of the environment.
+3. **Packages:** List of channels and dependencies that will be installed in your conda environment. To get started, Blazing Notebooks pre-populates the structure. 
 
 **Example:**
 
@@ -45,17 +49,19 @@ you will see a structure there when you go to the create custom environment form
         - cudf
         - cudatoolkit=10.2
 
+.. _base_envs:
+
 Base environments
 =================
 
-BlazingSQL Notebooks app allows users to create custom environments, but by default 
-we provide you two base environments built with RAPIDS-stable and RAPIDS-nightly. Those environments can't
-be eddited and deleted. 
+Blazing Notebooks app allows users to create custom environments, but by default 
+two base environments built with RAPIDS-stable and RAPIDS-nightly are provided. 
+Those environments **cannot** be eddited and deleted. 
 
 RAPIDS-stable
 -------------
 
-It is a base environment that include RAPIDS and BlazingSQL from stable channels.
+The base environment that includes RAPIDS and BlazingSQL packages from stable channels.
 
 ::
 
@@ -107,7 +113,7 @@ It is a base environment that include RAPIDS and BlazingSQL from stable channels
 RAPIDS-nightly
 --------------
 
-It is a base environment that include RAPIDS and BlazingSQL from nightly channels.
+The base environment that includes RAPIDS and BlazingSQL packages from nightly channels.
 
 ::
 
@@ -159,28 +165,45 @@ It is a base environment that include RAPIDS and BlazingSQL from nightly channel
 Delete an environment
 =====================
 
-To delete a custom conda environment, you only have to do click on the *"Delete"* button.
+To delete a custom conda environment click the *"Delete"* button.
 
 .. raw:: html
 
-    <img src="../../_static/images/list_custom_env.png" alt="list_custom_environment"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/list_custom_env.png" alt="list_custom_environment" width=400/>
+        </div>
+    </div>
 
-Then, you will need to confirm or cancel the operation
+|
+
+You will be asked to *confirm* or *cancel* the operation
 
 .. raw:: html
 
-    <img src="../../_static/images/delete_environment.png" alt="list_custom_environment"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/delete_environment.png" alt="list_custom_environment" width=300/>
+        </div>
+    </div>
 
-After you confirm that you want to delete the environment, it will be deleted from your list environment.
+|
+
+If you confirm, the environment will be deleted.
 
 Edit and update an environment
 ==============================
 
-You can edit a custom conda environmet and change any of the parameters that you enter when the environment was created.
+Environments are editable. To edit a custom conda environmet and change any of the parameters or packages that were included when the environment was created click
+the **Edit** button and update the form.
 
 .. raw:: html
 
-    <img src="../../_static/images/edit_custom_env.png" alt="list_custom_environment"/>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex text-center image">
+        <div class="shadow image text-center ">
+            <img src="../../_static/images/edit_custom_env.png" alt="list_custom_environment" width=600/>
+        </div>
+    </div>
 
 .. toctree::
     :maxdepth: 2
