@@ -20,40 +20,6 @@ Private clusters
 .. container:: custom-button
 
     :ref:`Managing clusters guides<cluster>`
-
-.. raw:: html
-
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/privClusters_workspace.svg" class="card-img-top" alt="private clusters action icon" height="52">
-                <div class="card-body flex-fill">
-                    <h5 class="card-title">Workspace</h5>
-                    <p class="card-text">Everything you need to do your job in one familiar place!</p>
-
-.. container:: custom-button
-
-    :ref:`Workspace guides<workspace>`
-
-.. raw:: html
-
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/privClusters_notebooks.svg" class="card-img-top" alt="private clusters action icon" height="52">
-                <div class="card-body flex-fill">
-                    <h5 class="card-title">Notebooks</h5>
-                    <p class="card-text">Unfamiliar with Jupyter notebooks? 
-                    <br>This is for you!
-                    </p>
-
-.. container:: custom-button
-
-    :ref:`Notebooks guides<notebooks>`
     
 .. raw:: html
 
@@ -85,6 +51,9 @@ Private clusters
    :hidden:
 
    cluster/index
-   workspace/index
-   notebooks/index
    environments/index
+
+
+..
+    notebooks/index
+    workspace/index
