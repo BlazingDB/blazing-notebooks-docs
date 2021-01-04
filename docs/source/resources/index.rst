@@ -24,7 +24,7 @@ This section summarizes the releases of the BlazingSQL engine. These are typical
 Requirements
 ============
 
-For now, BlazingSQL Notebooks app is only compatible with chrome navigator from version x.x.
+Compatible only with Chrome.
 
 
 .. toctree::
