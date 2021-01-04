@@ -24,7 +24,7 @@ This section summarizes the releases of the BlazingSQL engine. These are typical
 Requirements
 ============
 
-Compatible only with Chrome.
+Compatible only with Chrome Version 87 or above.
 
 
 .. toctree::
