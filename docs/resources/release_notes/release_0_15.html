@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Release 0.15 &#8212; Blazing Notebooks  documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.4eb26a98c046fa117c2b75e31c15adbb.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/getting_started.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blazingsql.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.3edd59071b60732de7f5.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Release 0.14" href="release_0_14.html" />
+    <link rel="prev" title="Release 0.16" href="release_0_16.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
+
+    <a class="navbar-brand" href="../../index.html">
+    
+      <img src="../../_static/blazingNotebooks_logo.png" class="logo" alt="logo" />
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../getting_started/index.html">Getting started</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../private_clusters/index.html">Private clusters</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../billing/index.html">Billing</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../use_cases/index.html">Use cases</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../freemium/index.html">Free GPU Instance</a>
+        </li>
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Resources</a>
+        </li>
+        
+        
+      </ul>
+
+
+      <form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+      
+
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/BlazingDB/blazing-notebooks-docs" target="_blank" rel="noopener">
+              <span><i class="fab fa-github-square"></i></span>
+            </a>
+          </li>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/blazingsql" target="_blank" rel="noopener">
+              <span><i class="fab fa-twitter-square"></i></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+
+    <div class="bd-toc-item active">
+    
+  
+    <ul class="nav bd-sidenav">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        
+      </ul>
+  
+  </nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#new-features" class="nav-link">New Features</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#improvements" class="nav-link">Improvements</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#performance-improvements" class="nav-link">Performance improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#stability-improvements" class="nav-link">Stability improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#documentation-improvements" class="nav-link">Documentation improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#building-improvements" class="nav-link">Building improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#logging-improvements" class="nav-link">Logging improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#testing-improvements" class="nav-link">Testing improvements</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#other-improvements" class="nav-link">Other improvements</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#bug-fixes" class="nav-link">Bug Fixes</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="release-0-15">
+<span id="id1"></span><h1>Release 0.15<a class="headerlink" href="#release-0-15" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="new-features">
+<h2>New Features<a class="headerlink" href="#new-features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Added a memory monitor for better memory management for out of core processing</p></li>
+<li><p>Added list_tables() and describe_table() functions</p></li>
+<li><p>Added support for constant expressions evaluation by Calcite</p></li>
+<li><p>Added support for cross join</p></li>
+<li><p>Added rand() and support for running unary operations on literals</p></li>
+<li><p>Added get_free_memory() function</p></li>
+</ul>
+</div>
+<div class="section" id="improvements">
+<h2>Improvements<a class="headerlink" href="#improvements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="performance-improvements">
+<h3>Performance improvements<a class="headerlink" href="#performance-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Implemented Unordered pull from cache to help performance</p></li>
+<li><p>Concatenating cache improvement and replacing PartwiseJoin::load_set with a concatenating cache</p></li>
+<li><p>Adding max kernel num threads pool</p></li>
+<li><p>Added new separate thresh for concat cache</p></li>
+</ul>
+</div>
+<div class="section" id="stability-improvements">
+<h3>Stability improvements<a class="headerlink" href="#stability-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Added checks for concatenation to prevent String overflow</p></li>
+<li><p>Added nogil statements for pure C functions in Cython</p></li>
+<li><p>Round robing dask workers on single gpu queries</p></li>
+<li><p>Reraising query errors in context.py</p></li>
+<li><p>Implemented using threadpool for outgoing messages</p></li>
+</ul>
+</div>
+<div class="section" id="documentation-improvements">
+<h3>Documentation improvements<a class="headerlink" href="#documentation-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Added exhale to generate doxygen for sphinx docs</p></li>
+<li><p>Added Sphinx based code architecture documentation</p></li>
+<li><p>Added doxygen comments to CacheMachine.h</p></li>
+<li><p>Added more documentation about memory management</p></li>
+<li><p>Updated readme</p></li>
+<li><p>Added doxygen comments to some kernels and the batch processing</p></li>
+</ul>
+</div>
+<div class="section" id="building-improvements">
+<h3>Building improvements<a class="headerlink" href="#building-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Updated Calcite to the most recent version 1.23</p></li>
+<li><p>Added check for CUDF_HOME to allow build to use an existing prebuilt cudf source tree</p></li>
+<li><p>Python/Cython check code style</p></li>
+<li><p>Make AWS and GCS optional</p></li>
+</ul>
+</div>
+<div class="section" id="logging-improvements">
+<h3>Logging improvements<a class="headerlink" href="#logging-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Logging level (flush_on) can be configurable</p></li>
+<li><p>Set log_level when using LOGGING_LEVEL param</p></li>
+</ul>
+</div>
+<div class="section" id="testing-improvements">
+<h3>Testing improvements<a class="headerlink" href="#testing-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Added unit tests on Calcite to check how logical plans are affected when rulesets are updated</p></li>
+<li><p>Updated set of TPCH queries on the E2E tests</p></li>
+<li><p>Added initial set of unit tests for WaitingQueue and nullptr checks around spdlog calls</p></li>
+<li><p>Add unit test for Project kernel</p></li>
+</ul>
+</div>
+<div class="section" id="other-improvements">
+<h3>Other improvements<a class="headerlink" href="#other-improvements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Removed a lot of dead code from the codebase</p></li>
+<li><p>Replace random_generator with cudf::sample</p></li>
+<li><p>Adding extern C for include files</p></li>
+<li><p>Use default client and network interface from Dask. BlazingSQL should now be able to infer the network interface.</p></li>
+<li><p>Updated the GPUManager functions</p></li>
+<li><p>Handle exceptions from pool_threads</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="bug-fixes">
+<h2>Bug Fixes<a class="headerlink" href="#bug-fixes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Various fixing of issues due to updates to cudf</p></li>
+<li><p>Fixed issue with Hive partitions when doing SELECT *</p></li>
+<li><p>Normalize columns before distribution in JoinPartitionKernel</p></li>
+<li><p>Fixed issue with hive partitions base folder</p></li>
+<li><p>Fix interops operators output types</p></li>
+<li><p>Fix when the algebra plan was provided using one-line as logical plan</p></li>
+<li><p>Fix issue related to Hive metadata</p></li>
+<li><p>Remove temp files from data cached to disk</p></li>
+<li><p>Fix when checking only Limit and Scan Kernels</p></li>
+<li><p>Loading one file at a time (LimitKernel and ScanKernel)</p></li>
+<li><p>Fixed small issue with hive types conversion</p></li>
+<li><p>Fix for literal cast</p></li>
+<li><p>Fixed issue with start and length of substring being different types</p></li>
+<li><p>Fixed issue on logical plans when there is an EXISTS clause</p></li>
+<li><p>Fixed issue with casting string to string</p></li>
+<li><p>Fixed issue with getting table scan info</p></li>
+<li><p>Fixed row_groups issue in ParquetParser.cpp</p></li>
+<li><p>Fixed issue with some constant expressions not evaluated by calcite</p></li>
+<li><p>Fixed issue with log directory creation in a distributed environment</p></li>
+<li><p>Fixed issue where we were including testing hpp in our code</p></li>
+<li><p>Fixed optimization regression on the select count(*) case</p></li>
+<li><p>Fixed issue caused by using new arrow_io_source</p></li>
+<li><p>Fixed e2e string comparison</p></li>
+<li><p>Fixed random segfault issue in parser</p></li>
+<li><p>Fixed issue with column names on sample function</p></li>
+<li><p>Introduced config param for max orderby samples and fixed issue with oversampling in ORDER BY</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.3edd59071b60732de7f5.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, BlazingSQL.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
