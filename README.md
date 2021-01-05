@@ -12,7 +12,7 @@ pip install -r requirements.txt
 To build the docs
 
 ```
-cd docs && make html
+cd docsrc && make html
 ```
 
-The docs will be in the `docs\build\html` folder: open `index.html`.
+The docs will be in the `docsrc\build\html` folder: open `index.html`.
