@@ -9,7 +9,7 @@ all all the packages that you need. The Blazing Notebooks provides and easy way 
 You can create custom environments, but if you don't need any specific package you will have two default environments configured 
 to use *rapids-stable* or *rapids-nightly* 
 and all the dependencies to try RAPIDS and BlazingSQL;
-see what is included in the :ref:`Base environments <base_envs>` section below.
+see what is included in the **Base environments** section below.
 
 Create an environment
 =====================

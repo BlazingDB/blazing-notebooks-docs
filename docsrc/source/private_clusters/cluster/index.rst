@@ -18,7 +18,7 @@ To get started with private clusters you will need credits in your account; chec
 Creating clusters on BlazingSQL Notebooks requires only 3 parameters to start with:
 
 - **Cluster name:** A recognizable name for your cluster.
-- **Size:** Select the number of GPUs from dropdown. See :ref:`Supported cluster sizes and GPUs <cluster_sizes>` section below.
+- **Size:** Select the number of GPUs from dropdown. See **Supported cluster sizes and GPUs** section below.
 - **Auto Suspend:** Time the cluster will shutdown if not being used. 
 
 .. raw:: html
@@ -104,7 +104,7 @@ If you create a new cluster, once it is deployed it will be returned to
 you in a running state. 
 
 After you shut down the cluster, either manually or the auto-suspend did that for you
-(see :ref:`Manual and auto-suspend <manual_auto_suspend>`), you can start a cluster
+(see **Manual and auto-suspend**), you can start a cluster
 in two ways:
 
 1. In the *tiles* view click on **Actions** and select **Start**
@@ -173,8 +173,8 @@ To finalize the deletion of a cluster you need to confirm that in the pop-up win
 
 Manual and auto-suspend
 =======================
-You can stop your cluster manually (see :ref:`below <manual_stop>`). However, if 
-by any chance you forget, the :ref:`auto-suspend <auto_stop>` process will turn off your cluster 
+You can stop your cluster manually. However, if 
+by any chance you forget, the auto-suspend process will turn off your cluster 
 automatically after the predefined period of time.
 
 .. _manual_stop:

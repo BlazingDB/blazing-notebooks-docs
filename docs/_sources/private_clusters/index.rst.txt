@@ -9,11 +9,11 @@ Private clusters
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/privClusters_cluster.svg" class="card-img-top" alt="private clusters cluster action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="../_static/icons/icon-docs-private-cluster.png"" class="card-img-top" alt="private clusters cluster action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Cluster</h5>
-                    <p class="card-text">Scale your workloads to multi-node 
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Cluster</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Scale your workloads to multi-node 
                     <br>GPU clusters on the cloud!
                     </p>
 
@@ -27,11 +27,11 @@ Private clusters
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/privClusters_environments.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="../_static/icons/icon-docs-private-environment.png"" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Managing environments</h5>
-                    <p class="card-text">No matter your data science stack - we got you covered!
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Managing environments</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">No matter your data science stack - we got you covered!
                     </p>
 
 .. container:: custom-button
