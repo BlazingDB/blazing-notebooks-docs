@@ -7,23 +7,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Blazing Notebooks documentation!
-=============================================
 
 .. raw:: html
 
+    <h1 style="padding-left: 15px;"><span style="font-size: 16px !important; line-height: 20px; color: #5E35D1">DOCUMENTATION</span><br><span style="letter-spacing: -1px;">Welcome to Blazing Notebooks!</span><a class="headerlink" href="#welcome-to-blazing-notebooks-documentation" title="Permalink to this headline">¶</a></h1>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_gettingStarted.svg" class="card-img-top" alt="getting started action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-getstarted.png" class="card-img-top" alt="getting started action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Getting started</h5>
-                    <p class="card-text">10-minutes to Blazing Notebooks! 
-                    <br>The step-by-step guide to Blazing Notebooks, Blazing SQL and RAPIDS.
-                    </p>
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Getting started</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">10-minutes to Blazing Notebooks!
+                    <br>The step-by-step guide to Blfazing Notebooks, Blazing SQL and RAPIDS.
 
-.. container:: custom-button
+.. container:: custom-button custom-button-getting-started
 
     :ref:`Getting started guides<getting_started>`
 
@@ -33,11 +31,11 @@ Welcome to Blazing Notebooks documentation!
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_privateClusters.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-private.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Private clusters</h5>
-                    <p class="card-text">Manage private clusters!
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Private clusters</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Manage private clusters!
                     <br>Learn to create and change clusters, and organize environments.
                     </p>
 
@@ -51,11 +49,11 @@ Welcome to Blazing Notebooks documentation!
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_billing.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-billing.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Billing</h5>
-                    <p class="card-text">Understand credits and billing!
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Billing</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Understand credits and billing!
                     <br>Learn to purchase credits and track your spend.
                     </p>
 
@@ -69,11 +67,11 @@ Welcome to Blazing Notebooks documentation!
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_useCases.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-cases.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Use cases</h5>
-                    <p class="card-text">Explore solutions to common problems!
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Use cases</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Explore solutions to common problems!
                     <br>Learn to solve industry and data science problems with RAPIDS stack.
                     </p>
 
@@ -87,11 +85,11 @@ Welcome to Blazing Notebooks documentation!
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_freemium.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-freemium.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Freemium</h5>
-                    <p class="card-text">Get a taste of what we offer!
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Freemium</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Get a taste of what we offer!
                     <br>Try Blazing Notebooks for yourself in the free app.
                     </p>
 
@@ -105,11 +103,11 @@ Welcome to Blazing Notebooks documentation!
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="_static/icons/index_resources.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="_static/icons/icon-docs-resources.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
                     <h5 class="card-title">Resources</h5>
-                    <p class="card-text">Find information about RAPIDS stack!
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Find information about RAPIDS stack!
                     <br>Explore docs and release documentation to learn about new features.
                     </p>
 
