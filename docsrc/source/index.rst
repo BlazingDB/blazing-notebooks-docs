@@ -19,7 +19,7 @@
                 <div class="card-body flex-fill">
                     <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Getting started</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">10-minutes to Blazing Notebooks!
-                    <br>The step-by-step guide to Blfazing Notebooks, Blazing SQL and RAPIDS.
+                    <br>The step-by-step guide to Blazing Notebooks, Blazing SQL and RAPIDS.
 
 .. container:: custom-button custom-button-getting-started
 

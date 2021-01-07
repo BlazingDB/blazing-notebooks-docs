@@ -9,11 +9,11 @@ Use cases
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/useCases_industry.svg" class="card-img-top" alt="private clusters cluster action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="../_static/icons/icon-docs-cases-industry.png" class="card-img-top" alt="private clusters cluster action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Industry solutions</h5>
-                    <p class="card-text">Learn how we use BlazingSQL and RAPIDS to solve problems in various industries.
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Industry solutions</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Learn how we use BlazingSQL and RAPIDS to solve problems in various industries.
                     </p>
 
 .. container:: custom-button
@@ -26,11 +26,11 @@ Use cases
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/useCases_dataScience.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="../_static/icons/icon-docs-cases-science.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Data science</h5>
-                    <p class="card-text">Learn how RAPIDS ecosystem can be applied to solve Data Science problems.</p>
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Data science</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Learn how RAPIDS ecosystem can be applied to solve Data Science problems.</p>
 
 .. container:: custom-button
 
@@ -42,11 +42,11 @@ Use cases
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
-                <div class="card text-center intro-card shadow">
-                <img src="../_static/icons/useCases_webinars.svg" class="card-img-top" alt="private clusters action icon" height="52">
+                <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
+                <img src="../_static/icons/icon-docs-cases-webinar.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Webinars</h5>
-                    <p class="card-text">We engage with the community by organizing hands-on 
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Webinars</h5>
+                    <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">We engage with the community by organizing hands-on 
                      webinars in both English and Spanish.
                     </p>
 
