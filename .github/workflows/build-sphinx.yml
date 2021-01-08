@@ -18,7 +18,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Run github command
-        run: cd docsrc/source && make github
+        run: cd docsrc && make github
 
 #       # Runs a single command using the runners shell
 #       - uses: ammaraskar/sphinx-action@master
