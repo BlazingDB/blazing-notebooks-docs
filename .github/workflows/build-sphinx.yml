@@ -17,10 +17,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v2
+#       - name: Install Python dependencies
+#         uses: py-actions/py-dependency-install@v2
 
       # Runs a single command using the runners shell
       - uses: ammaraskar/sphinx-action@master
         with:
+          pre-build-command: "pip install pydata-sphinx-theme"
+          build-command: "make html -e"
           docs-folder: "docsrc/"
