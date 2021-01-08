@@ -7,10 +7,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Welcome to Blazing Notebooks!
+=============================
 
 .. raw:: html
 
-    <h1 style="padding-left: 15px;"><span style="font-size: 16px !important; line-height: 20px; color: #5E35D1">DOCUMENTATION</span><br><span style="letter-spacing: -1px;">Welcome to Blazing Notebooks!</span><a class="headerlink" href="#welcome-to-blazing-notebooks-documentation" title="Permalink to this headline">¶</a></h1>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
