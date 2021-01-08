@@ -28,7 +28,7 @@ jobs:
           docs-folder: "docsrc/"
       - name: Commit documentation changes
         run: |
-          git clone https://github.com/ammaraskar/sphinx-action-test.git --branch main --single-branch main
+          git clone https://github.com/BlazingDB/blazing-notebooks-docs.git --branch main --single-branch main
           cp -a docsrc/build/html/. docs/
           cd docs
           touch .nojekyll
