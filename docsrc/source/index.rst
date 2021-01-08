@@ -107,7 +107,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-resources.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title">Resources</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Resources</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Find information about RAPIDS stack.
                     <br>Explore docs and release documentation to learn about new features.
                     </p>
