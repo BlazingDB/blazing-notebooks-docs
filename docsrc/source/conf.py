@@ -60,6 +60,8 @@ html_css_files = [
 # of the sidebar.
 html_logo = "_static/icons/blazingNotebooks_logo.png"
 
+# html_favicon = "_static/icons/blazingsql-icon.ico"
+
 # If false, no module index is generated.
 html_use_modindex = True
 
