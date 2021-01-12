@@ -12,7 +12,7 @@ Private clusters
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="../_static/icons/icon-docs-private-cluster.png"" class="card-img-top" alt="private clusters cluster action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Cluster</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Cluster</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Scale your workloads to multi-node 
                     <br>GPU clusters on the cloud!
                     </p>
@@ -30,7 +30,7 @@ Private clusters
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="../_static/icons/icon-docs-private-environment.png"" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Managing environments</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Managing environments</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">No matter your data science stack - we got you covered!
                     </p>
 

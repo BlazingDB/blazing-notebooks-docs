@@ -42,4 +42,5 @@ jobs:
         with:
           branch: main
           directory: docs
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}

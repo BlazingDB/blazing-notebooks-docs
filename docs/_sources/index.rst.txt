@@ -35,7 +35,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-private.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Private clusters</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Private clusters</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Manage private clusters.
                     <br>Learn to create and change clusters, and organize environments.
                     </p>
@@ -53,7 +53,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-billing.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Billing</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Billing</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Understand credits and billing.
                     <br>Learn to purchase credits and track your spend.
                     </p>
@@ -71,7 +71,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-cases.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Use cases</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Use cases</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Explore solutions to common problems.
                     <br>Learn to solve industry and data science problems with RAPIDS stack.
                     </p>
@@ -89,7 +89,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-freemium.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Freemium</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Freemium</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Get a taste of what we offer.
                     <br>Try Blazing Notebooks for yourself in the free app.
                     </p>
@@ -107,7 +107,7 @@ Welcome to Blazing Notebooks!
                 <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
                 <img src="_static/icons/icon-docs-resources.png" class="card-img-top" alt="private clusters action icon" height="auto">
                 <div class="card-body flex-fill">
-                    <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Resources</h5>
+                    <h5 class="card-title" style="font-weight: 600; color: #838484">Resources</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Find information about RAPIDS stack.
                     <br>Explore docs and release documentation to learn about new features.
                     </p>
