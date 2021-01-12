@@ -47,7 +47,7 @@ Use cases
                 <div class="card-body flex-fill">
                     <h5 class="card-title" style="font-weight: 600; color: #5E35D1">Webinars</h5>
                     <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">We engage with the community by organizing hands-on 
-                     webinars in both English and Spanish. Test
+                     webinars in both English and Spanish.
                     </p>
 
 .. container:: custom-button
