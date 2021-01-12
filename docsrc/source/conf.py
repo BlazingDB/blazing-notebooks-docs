@@ -60,7 +60,7 @@ html_css_files = [
 # of the sidebar.
 html_logo = "_static/icons/blazingNotebooks_logo.png"
 
-# html_favicon = "_static/icons/blazingsql-icon.ico"
+html_favicon = "_static/icons/blazingsql-icon.ico"
 
 # If false, no module index is generated.
 html_use_modindex = True
@@ -70,4 +70,15 @@ html_theme_options = {
   , "github_url": "https://github.com/BlazingDB/blazing-notebooks-docs"
   , "search_bar_position": "navbar"
   , "show_prev_next": False
+}
+
+html_theme_options = {
+    "use_edit_page_button": True,
+}
+
+html_context = {
+    "github_user": "blazingdb",
+    "github_repo": "blazing-notebooks-docs",
+    "github_version": "feedback",
+    "doc_path": "docsrc/source",
 }
