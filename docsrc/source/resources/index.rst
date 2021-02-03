@@ -19,7 +19,7 @@ Release notes
 
 This section summarizes the releases of the BlazingSQL engine. These are typically aligned with the releases to RAPIDS.
 
-- :doc:`Release notes <release_notes>`
+- `Release notes <https://github.com/BlazingDB/blazingsql/releases>`_
 
 Requirements
 ============
