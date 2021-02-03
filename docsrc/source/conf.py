@@ -33,7 +33,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['private_clusters/notebooks/*', 'private_clusters/workspace/*']
+exclude_patterns = ['private_clusters/notebooks/*', 'private_clusters/workspace/*', 'use_cases/webinars_planned/*']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -82,3 +82,6 @@ html_context = {
     "github_version": "feedback",
     "doc_path": "docsrc/source",
 }
+
+def setup(app):
+    app.add_js_file("js/d3.v3.min.js")
