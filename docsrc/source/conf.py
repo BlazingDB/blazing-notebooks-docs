@@ -58,7 +58,7 @@ html_css_files = [
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "_static/icons/blazingNotebooks_logo.png"
+html_logo = "_static/icons/blazingsql_logo.svg"
 
 html_favicon = "_static/icons/blazingsql-icon.ico"
 
