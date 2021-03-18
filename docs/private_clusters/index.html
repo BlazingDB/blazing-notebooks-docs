@@ -6,7 +6,8 @@
     <meta charset="utf-8" />
     <title>Private clusters &#8212; Blazing Notebooks  documentation</title>
     
-  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -18,10 +19,6 @@
 
     
       
-  <link rel="stylesheet"
-    href="../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
@@ -29,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/getting_started.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/blazingsql.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="../_static/js/index.d8bbf5861d671d414e1a.js">
 
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -47,55 +44,64 @@
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
-<div class="container-xl">
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
 
-    <a class="navbar-brand" href="../index.html">
+
     
-      <img src="../_static/blazingNotebooks_logo.png" class="logo" alt="logo" />
+      
+      <a class="navbar-brand" href="../index.html">
+        <img src="../_static/blazingsql_logo.svg" class="logo" alt="logo">
+      </a>
+      
     
-    </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
+    
     <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
       <ul id="navbar-main-elements" class="navbar-nav mr-auto">
-        
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../getting_started/index.html">Getting started</a>
-        </li>
-        
-        <li class="nav-item active">
-            <a class="nav-link" href="">Private clusters</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../billing/index.html">Billing</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../use_cases/index.html">Use cases</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../freemium/index.html">Free GPU Instance</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../resources/index.html">Resources</a>
-        </li>
-        
+        <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../getting_started/index.html">
+  Getting started
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="current reference internal nav-link" href="#">
+  Private clusters
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../billing/index.html">
+  Billing
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../use_cases/index.html">
+  Use cases
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../freemium/index.html">
+  Free GPU Instance
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../resources/index.html">
+  Resources
+ </a>
+</li>
+
         
       </ul>
 
-
-      
-
-      <ul class="navbar-nav">
-        
-        
+      <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
       </ul>
     </div>
 </div>
@@ -105,47 +111,30 @@
     <div class="container-xl">
       <div class="row">
           
-          <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-
-    <div class="bd-toc-item active">
-    
-  
+  <div class="bd-toc-item active">
     <ul class="nav bd-sidenav">
-        
-        
-        
-        
-          
+ <li class="toctree-l2">
+  <a class="reference internal" href="cluster/index.html">
+   Cluster
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="environments/index.html">
+   Managing environments
+  </a>
+ </li>
+</ul>
+  </div>
+</nav>
+            </div>
             
-                <li class="">
-                    <a href="cluster/index.html">Cluster</a>
-                </li>
-            
-          
-            
-                <li class="">
-                    <a href="environments/index.html">Managing environments</a>
-                </li>
-            
-          
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-  
-  </nav>
-          </div>
           
 
           
@@ -153,9 +142,7 @@
               
 
 <nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
     
-    </ul>
 </nav>
 
 
@@ -171,6 +158,9 @@
           
 
           
+          
+            
+          
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
@@ -179,9 +169,9 @@
 <span id="id1"></span><h1>Private clusters<a class="headerlink" href="#private-clusters" title="Permalink to this headline">¶</a></h1>
 <div class="container">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
-            <img src="../_static/icons/icon-docs-private-cluster.png"" class="card-img-top" alt="private clusters cluster action icon" height="auto">
+            <img src="../_static/icons/svg/icon-docs-private-cluster.svg"" class="card-img-top" alt="private clusters cluster action icon" height="auto">
             <div class="card-body flex-fill">
                 <h5 class="card-title" style="font-weight: 600; color: #838484">Cluster</h5>
                 <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">Scale your workloads to multi-node
@@ -194,7 +184,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
     <div class="card text-center intro-card shadow" style="border: none; padding-top: 20px; padding-bottom:30px">
-    <img src="../_static/icons/icon-docs-private-environment.png"" class="card-img-top" alt="private clusters action icon" height="auto">
+    <img src="../_static/icons/svg/icon-docs-private-environment.svg"" class="card-img-top" alt="private clusters action icon" height="auto">
     <div class="card-body flex-fill">
         <h5 class="card-title" style="font-weight: 600; color: #838484">Managing environments</h5>
         <p class="card-text" style="color: #9e9e9e; margin-top:10px !important">No matter your data science stack - we got you covered!
@@ -227,7 +217,7 @@
     </div>
 
     
-  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+  <script src="../_static/js/index.d8bbf5861d671d414e1a.js"></script>
 
 
     <footer class="footer mt-5 mt-md-0">
